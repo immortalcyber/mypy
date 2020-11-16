@@ -1,6 +1,6 @@
 <?php /* Source By @BotSaz_Team */
-define('API_KEY', 'توکن');
-$admin = "آیدی عددی ادمین";
+define('1429847347:AAF_NlGvX1XdHDuLxAV3elctwe9JEx1U6l4', 'توکن');
+$admin = "1344453843";
 function roonx($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
